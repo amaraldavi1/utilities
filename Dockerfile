@@ -13,6 +13,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
       python3 python3-pip python3-dev \
       git \
       iptables \
+      iputils-ping \
       jq \
       libssl-dev \
       mysql-client \

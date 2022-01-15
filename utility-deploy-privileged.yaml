@@ -17,7 +17,7 @@ spec:
       hostNetwork: true
       containers:
       - name: utilities
-        image: quay.io/sudermanjr/utilities:2.0
+        image: amaraldavi1/lazybox-utils
         # Just spin & wait forever
         command: [ "/bin/bash", "-c", "--" ]
         args: [ "while true; do sleep 30; done;" ]
